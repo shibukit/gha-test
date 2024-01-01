@@ -32,7 +32,7 @@ on:
         required: true
         description: OSの種類
         default: windows
-     environment:
+      environment:
         required: true
         description: 実行環境
         type: environment
