@@ -7,5 +7,5 @@ RUN apt-get update && apt-get update -y && apt-get install -y \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt /pip/
+COPY ./231231_python/requirements.txt /pip/
 RUN pip install -r /pip/requirements.txt
